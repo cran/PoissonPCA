@@ -1,0 +1,13 @@
+useDynLib(PoissonPCA,.registration=TRUE)
+export(Poisson_Corrected_PCA)
+export(polynomial_transformation)
+export(LinearCorrectedVariance)
+export(LinearCorrectedVarianceSeqDepth)
+export(TransformedVariance)
+export(TransformedVarianceECV)
+export(get_scores)
+export(get_scores_log)
+export(make_compositional_variance)
+export(make_compositional_min_var)
+export(makelogtransformation)
+

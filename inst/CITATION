@@ -1,0 +1,10 @@
+year <- sub("_.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(bibtype = "Unpublished",
+         title = "SEMI-PARAMETRIC PRINCIPAL COMPONENT ANALYSIS FOR
+POISSON COUNT DATA WITH APPLICATION TO MICROBIOME DATA ANALYSIS",
+         author = c(person("Toby", "Kenney"),person("Tianshu","Huang"),person("Hong", "Gu")),
+         year = "2019",
+         note = "http://arxiv.org/abs/1904.11745"
+         )
