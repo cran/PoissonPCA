@@ -1,15 +1,15 @@
-45385949f346e888535a49cd167f2946 *DESCRIPTION
+9b1ed93a73c945470a477c595d51a523 *DESCRIPTION
 bcba8d90a2a6ebe0fff4b7a96e62305c *NAMESPACE
 bade05ab028b7f29d1e07f148f8179f1 *R/CorrectedVarianceEstimators.R
 c238ef47b2b5b3dc7ce3a50e8e2ec304 *R/Corrected_PCA.R
 2c31d2118b23714b2c84075f8723d18a *R/LogEstimation.R
 e7f316abe0765e665e7b60341b88aa50 *R/Projection.R
 d52a647574eb395fa3c3fb96f7dd432a *R/make_compositional.R
-f541f66f291148a14ab32b44259db125 *build/vignette.rds
+94372cd2113154e7d9b0ae69a675b538 *build/vignette.rds
 eb7c8bb4da7d733c6c0ae5d022190f09 *inst/CITATION
 e6f316aa2f07b69b204915dcc954f541 *inst/doc/PoissonPCA.R
 20a444d59d7abddd3a4e4a799d0dd1ba *inst/doc/PoissonPCA.Rnw
-31d3aa73594f12d86a78cb742bb748d3 *inst/doc/PoissonPCA.pdf
+6f4e9d7e813be822698537dd7199f996 *inst/doc/PoissonPCA.pdf
 6eedf362c0a4b62414545b5eb00ea06f *inst/test_code/linearseq_simulations.R
 81e066da445e8184a7e5a123391e3267 *inst/test_code/meang_300.pdf
 ee7a4c5afc94bd3fb0bc47e9474e5560 *inst/test_code/run_linear_simulations.R
@@ -23,7 +23,7 @@ f4d69106232643bf6e85c8ff16539e39 *man/get_scores.Rd
 387edd7e558da1fd7d23e912f17ee624 *man/make_compositional_variance.Rd
 4303e68b759ddce4c3b6f97fcab51733 *man/makelogtransformation.Rd
 979089f2426fbd49cfea96fda9d49c03 *man/polynomial_transformation.Rd
-e062bd8f7a8ea058b23f416dec595185 *src/LogPoissonEstimators.cpp
+df3d0191210162d63c39592d08517fc6 *src/LogPoissonEstimators.cpp
 8ae5548bc251c362768eba4be4430e58 *src/PoissonPCA_init.c
 09edf88815b8b7e355cb11a61892b8a1 *src/Projection.cpp
 20a444d59d7abddd3a4e4a799d0dd1ba *vignettes/PoissonPCA.Rnw

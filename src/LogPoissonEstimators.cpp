@@ -145,7 +145,7 @@ inline long double getlogg(unsigned int x){
       };
       return *(lowgvalues+x);
     }else{
-      return log(x);      
+      return log((long double)x);      
     };
 };
 
@@ -229,7 +229,7 @@ extern "C"{
       if((unsigned int)(*(xpointer+i))<numlowgvals){
 	*(answers+i)=*(lowgvalues+*(xpointer+i));
       }else{
-	*(answers+i)=log(*(xpointer+i));      
+	*(answers+i)=log((long double)*(xpointer+i));      
       };
     }
   };
@@ -250,9 +250,9 @@ extern "C"{
 	long double logweight=0;
 	int sum=*(x+i)+(*(x+j));
 	if(*(x+i)&&(*(x+j))){	  
-	  logweight=sum*log(sum)-*(x+i)*log(*(x+i)*2)-*(x+j)*log(*(x+j)*2);
+	  logweight=sum*log((long double)sum)-*(x+i)*log((long double)(*(x+i)*2))-*(x+j)*log((long double)(*(x+j)*2));
 	}else{
-	  logweight=-sum*log(2);
+	  logweight=-sum*log((long double)2);
 	};
 	long double weight=exp(logweight);
 	numterms+=weight;
